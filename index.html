@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>야구 구단 추천 AI</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1>⚾ 나에게 딱 맞는 야구팀은?</h1>
+
+  <form id="quiz-form">
+    <label>
+      응원 스타일:
+      <select name="style" required>
+        <option value="">-- 선택 --</option>
+        <option value="조용한 응원">조용한 응원</option>
+        <option value="열정적인 응원">열정적인 응원</option>
+      </select>
+    </label>
+
+    <label>
+      선호 지역:
+      <select name="region" required>
+        <option value="">-- 선택 --</option>
+        <option value="수도권">수도권</option>
+        <option value="영남">영남</option>
+        <option value="호남">호남</option>
+        <option value="기타">기타</option>
+      </select>
+    </label>
+
+    <label>
+      팀 성향:
+      <select name="type" required>
+        <option value="">-- 선택 --</option>
+        <option value="탄탄한 마운드">탄탄한 마운드</option>
+        <option value="발 빠른 육상부">발 빠른 육상부</option>
+        <option value="빅볼 야구">빅볼 야구</option>
+        <option value="영건들의 활약">영건들의 활약</option>
+      </select>
+    </label>
+
+    <label>
+      좋아하는 색상 (선택):
+      <input type="text" name="color" placeholder="예: 빨강, 파랑 등"/>
+    </label>
+
+    <button type="submit">구단 추천 받기</button>
+  </form>
+
+  <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 1em;
+    }
+    select, input[type="text"], button {
+      padding: 0.5em;
+      margin-top: 0.3em;
+      width: 100%;
+      max-width: 300px;
+    }
+    #result {
+      margin-top: 2em;
+      padding: 1em;
+      background-color: #eef;
+      border-left: 5px solid #44c;
+      white-space: pre-wrap;
+    }
